@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="ejercicio2.css">
+
+</head>
+
+<body>
+    <form action="./ejercicio2.php" method="POST">
+        <h2>Alta usuario (Formulario)</h2>
+        <fieldset>
+            <legend>Formulario</legend> <label for="nombreLabel">Nombre y apellidos: </label> <input type="text"
+                name="nombre" /> <br> <label for="emailLabel">Email:</label> <input type="text" name="email" /> <br>
+            <label for="usuarioLabel">Nombre de usuario:</label> <input type="text" name="user" /> <br> <label
+                for="passwdLabel">Contraseña:</label> <input type="password" name="pass" /> <br> <label
+                for="passwdConfLabel">Confirmar contraseña:</label> <input type="password" name="pass2" /> <br> <label
+                for="bloqueadoLabel">Bloqueado:</label> <input type="radio" name="bloqueado" value="SIBLOQUEADO" />SI
+            <input type="radio" name="bloqueado" value="NOBLOQUEADO" checked />NO <br> <label
+                for="depLabel">Departamento:</label> <br> <input type="checkbox" name="comercial" />Comercial <input
+                type="checkbox" name="marketing" />Marketing <input type="checkbox" name="direccion" />Dirección<br />
+            <br>
+            <div class="panelButtons"> <input type="submit" value="Enviar" /> <input type="reset" value="Borrar"
+                    name="Reset" /> </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
